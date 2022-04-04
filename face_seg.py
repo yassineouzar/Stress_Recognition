@@ -36,7 +36,7 @@ def mask_roi(image):
                 image = cv2.bitwise_and(image, mask)
         return image
 
-def get_im_train(path_im, path_save_im):
+def face_seg(path_im, path_save_im):
     global data_train
     list_dir = sorted(os.listdir(path_im))
 
@@ -100,6 +100,6 @@ path_im = 'G:/TODO1'
 path_save_im = 'G:/TODO2'
 
 print("begin1")
-get_im_train(path_im, path_save_im)
+face_seg(path_im, path_save_im)
 print("finished")
 
