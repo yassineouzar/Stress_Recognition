@@ -1,0 +1,822 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#">
+    <bib:Article rdf:about="http://www.joig.org/index.php?m=content&amp;c=index&amp;a=show&amp;catid=44&amp;id=144">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:23013699"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>University of Lorraine, Metz, France</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenName>Bo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Morère</foaf:surname>
+                        <foaf:givenName>Yann</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sieler</foaf:surname>
+                        <foaf:givenName>Loïc</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Langlet</foaf:surname>
+                        <foaf:givenName>Cécile</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bolmont</foaf:surname>
+                        <foaf:givenName>Benoît</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bourhis</foaf:surname>
+                        <foaf:givenName>Guy</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1096"/>
+        <dc:title>Stress Recognition from Heterogeneous Data</dc:title>
+        <dc:date>2016</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.joig.org/index.php?m=content&amp;c=index&amp;a=show&amp;catid=44&amp;id=144</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-04 10:56:26</dcterms:dateSubmitted>
+        <bib:pages>116-121</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:23013699">
+        <prism:volume>4</prism:volume>
+        <dc:title>Journal of Image and Graphics</dc:title>
+        <dc:identifier>DOI 10.18178/joig.4.2.116-121</dc:identifier>
+        <prism:number>2</prism:number>
+        <dcterms:alternative>JOIG</dcterms:alternative>
+        <dc:identifier>ISSN 23013699</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1096">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1096/University of Lorraine, Metz, France et al. - 2016 - Stress Recognition from Heterogeneous Data.pdf"/>
+        <dc:title>University of Lorraine, Metz, France et al. - 2016 - Stress Recognition from Heterogeneous Data.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-1-66540-477-8">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-66540-477-8</dc:identifier>
+                <dc:title>2021 IEEE Winter Conference on Applications of Computer Vision (WACV)</dc:title>
+                <dc:identifier>DOI 10.1109/WACV48630.2021.00104</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Waikoloa, HI, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>IEEE</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kumar</foaf:surname>
+                        <foaf:givenName>Satish</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Iftekhar</foaf:surname>
+                        <foaf:givenName>A S M</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Goebel</foaf:surname>
+                        <foaf:givenName>Michael</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bullock</foaf:surname>
+                        <foaf:givenName>Tom</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>MacLean</foaf:surname>
+                        <foaf:givenName>Mary H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Miller</foaf:surname>
+                        <foaf:givenName>Michael B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Santander</foaf:surname>
+                        <foaf:givenName>Tyler</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Giesbrecht</foaf:surname>
+                        <foaf:givenName>Barry</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Grafton</foaf:surname>
+                        <foaf:givenName>Scott T.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Manjunath</foaf:surname>
+                        <foaf:givenName>B.S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1097"/>
+        <dc:title>StressNet: Detecting Stress in Thermal Videos</dc:title>
+        <dcterms:abstract>Precise measurement of physiological signals is critical for the effective monitoring of human vital signs. Recent developments in computer vision have demonstrated that signals such as pulse rate and respiration rate can be extracted from digital video of humans, increasing the possibility of contact-less monitoring. This paper presents a novel approach to obtaining physiological signals and classifying stress states from thermal video. The proposed network–”StressNet”–features a hybrid emission representation model that models the direct emission and absorption of heat by the skin and underlying blood vessels. This results in an information-rich feature representation of the face, which is used by spatio-temporal network for reconstructing the ISTI ( Initial Systolic Time Interval : a measure of change in cardiac sympathetic activity that is considered to be a quantitative index of stress in humans). The reconstructed ISTI signal is fed into a stress-detection model to detect and classify the individual’s stress state (i.e. stress or no stress). A detailed evaluation demonstrates that StressNet achieves estimated the ISTI signal with 95% accuracy and detect stress with average precision of 0.842.</dcterms:abstract>
+        <dc:date>1/2021</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>StressNet</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/document/9423030/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-04 10:56:28</dcterms:dateSubmitted>
+        <bib:pages>998-1008</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2021 IEEE Winter Conference on Applications of Computer Vision (WACV)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1097">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1097/Kumar et al. - 2021 - StressNet Detecting Stress in Thermal Videos.pdf"/>
+        <dc:title>Kumar et al. - 2021 - StressNet Detecting Stress in Thermal Videos.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://jivp-eurasipjournals.springeropen.com/articles/10.1186/1687-5281-2014-28">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1687-5281"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sharma</foaf:surname>
+                        <foaf:givenName>Nandita</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dhall</foaf:surname>
+                        <foaf:givenName>Abhinav</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gedeon</foaf:surname>
+                        <foaf:givenName>Tom</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Goecke</foaf:surname>
+                        <foaf:givenName>Roland</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1098"/>
+        <dc:title>Thermal spatio-temporal data for stress recognition</dc:title>
+        <dcterms:abstract>Stress is a serious concern facing our world today, motivating the development of a better objective understanding through the use of non-intrusive means for stress recognition by reducing restrictions to natural human behavior. As an initial step in computer vision-based stress detection, this paper proposes a temporal thermal spectrum (TS) and visible spectrum (VS) video database ANUStressDB - a major contribution to stress research. The database contains videos of 35 subjects watching stressed and not-stressed film clips validated by the subjects. We present the experiment and the process conducted to acquire videos of subjects' faces while they watched the films for the ANUStressDB. Further, a baseline model based on computing local binary patterns on three orthogonal planes (LBP-TOP) descriptor on VS and TS videos for stress detection is presented. A LBP-TOP-inspired descriptor was used to capture dynamic thermal patterns in histograms (HDTP) which exploited spatio-temporal characteristics in TS videos. Support vector machines were used for our stress detection model. A genetic algorithm was used to select salient facial block divisions for stress classification and to determine whether certain regions of the face of subjects showed better stress patterns. Results showed that a fusion of facial patterns from VS and TS videos produced statistically significantly better stress recognition rates than patterns from VS or TS videos used in isolation. Moreover, the genetic algorithm selection method led to statistically significantly better stress detection rates than classifiers that used all the facial block divisions. In addition, the best stress recognition rate was obtained from HDTP features fused with LBP-TOP features for TS and VS videos using a hybrid of a genetic algorithm and a support vector machine stress detection model. The model produced an accuracy of 86%.</dcterms:abstract>
+        <dc:date>12/2014</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://jivp-eurasipjournals.springeropen.com/articles/10.1186/1687-5281-2014-28</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-04 10:56:30</dcterms:dateSubmitted>
+        <bib:pages>28</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1687-5281">
+        <prism:volume>2014</prism:volume>
+        <dc:title>EURASIP Journal on Image and Video Processing</dc:title>
+        <dc:identifier>DOI 10.1186/1687-5281-2014-28</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>J Image Video Proc</dcterms:alternative>
+        <dc:identifier>ISSN 1687-5281</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1098">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1098/Sharma et al. - 2014 - Thermal spatio-temporal data for stress recognitio.pdf"/>
+        <dc:title>Sharma et al. - 2014 - Thermal spatio-temporal data for stress recognitio.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.mdpi.com/1424-8220/20/19/5552">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1424-8220"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenName>Huijun</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Feng</foaf:surname>
+                        <foaf:givenName>Ling</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Ningyun</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jin</foaf:surname>
+                        <foaf:givenName>Zhanyu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cao</foaf:surname>
+                        <foaf:givenName>Lei</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1099"/>
+        <dc:title>Video-Based Stress Detection through Deep Learning</dc:title>
+        <dcterms:abstract>Stress has become an increasingly serious problem in the current society, threatening mankind’s well-beings. With the ubiquitous deployment of video cameras in surroundings, detecting stress based on the contact-free camera sensors becomes a cost-effective and mass-reaching way without interference of artiﬁcial traits and factors. In this study, we leverage users’ facial expressions and action motions in the video and present a two-leveled stress detection network (TSDNet). TSDNet ﬁrstly learns face- and action-level representations separately, and then fuses the results through a stream weighted integrator with local and global attention for stress identiﬁcation. To evaluate the performance of TSDNet, we constructed a video dataset containing 2092 labeled video clips, and the experimental results on the built dataset show that: (1) TSDNet outperformed the hand-crafted feature engineering approaches with detection accuracy 85.42% and F1-Score 85.28%, demonstrating the feasibility and effectiveness of using deep learning to analyze one’s face and action motions; and (2) considering both facial expressions and action motions could improve detection accuracy and F1-Score of that considering only face or action method by over 7%.</dcterms:abstract>
+        <dc:date>2020-09-28</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.mdpi.com/1424-8220/20/19/5552</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-04 10:56:31</dcterms:dateSubmitted>
+        <bib:pages>5552</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1424-8220">
+        <prism:volume>20</prism:volume>
+        <dc:title>Sensors</dc:title>
+        <dc:identifier>DOI 10.3390/s20195552</dc:identifier>
+        <prism:number>19</prism:number>
+        <dcterms:alternative>Sensors</dcterms:alternative>
+        <dc:identifier>ISSN 1424-8220</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1099">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1099/Zhang et al. - 2020 - Video-Based Stress Detection through Deep Learning.pdf"/>
+        <dc:title>Zhang et al. - 2020 - Video-Based Stress Detection through Deep Learning.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://link.springer.com/10.1007/s10044-021-01012-9">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1433-7541,%201433-755X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Giannakakis</foaf:surname>
+                        <foaf:givenName>Giorgos</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Koujan</foaf:surname>
+                        <foaf:givenName>Mohammad Rami</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Roussos</foaf:surname>
+                        <foaf:givenName>Anastasios</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Marias</foaf:surname>
+                        <foaf:givenName>Kostas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1100"/>
+        <dc:title>Automatic stress analysis from facial videos based on deep facial action units recognition</dc:title>
+        <dc:date>2021-09-22</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/10.1007/s10044-021-01012-9</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-04 10:56:33</dcterms:dateSubmitted>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1433-7541,%201433-755X">
+        <dc:title>Pattern Analysis and Applications</dc:title>
+        <dc:identifier>DOI 10.1007/s10044-021-01012-9</dc:identifier>
+        <dcterms:alternative>Pattern Anal Applic</dcterms:alternative>
+        <dc:identifier>ISSN 1433-7541, 1433-755X</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1100">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1100/Giannakakis et al. - 2021 - Automatic stress analysis from facial videos based.pdf"/>
+        <dc:title>Giannakakis et al. - 2021 - Automatic stress analysis from facial videos based.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-1-4799-5751-4">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-4799-5751-4</dc:identifier>
+                <dc:title>2014 IEEE International Conference on Image Processing (ICIP)</dc:title>
+                <dc:identifier>DOI 10.1109/ICIP.2014.7026203</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paris, France</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>IEEE</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gao</foaf:surname>
+                        <foaf:givenName>Hua</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yuce</foaf:surname>
+                        <foaf:givenName>Anil</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Thiran</foaf:surname>
+                        <foaf:givenName>Jean-Philippe</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1101"/>
+        <dc:title>Detecting emotional stress from facial expressions for driving safety</dc:title>
+        <dcterms:abstract>Monitoring the attentive and emotional status of the driver is critical for the safety and comfort of driving. In this work a real-time non-intrusive monitoring system is developed, which detects the emotional states of the driver by analyzing facial expressions. The system considers two negative basic emotions, anger and disgust, as stress related emotions. We detect an individual emotion in each video frame and the decision on the stress level is made on sequence level. Experimental results show that the developed system operates very well on simulated data even with generic models. An additional pose normalization step reduces the impact of pose mismatch due to camera setup and pose variation, and hence improves the detection accuracy further.</dcterms:abstract>
+        <dc:date>10/2014</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://ieeexplore.ieee.org/document/7026203/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-04 10:56:35</dcterms:dateSubmitted>
+        <bib:pages>5961-5965</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2014 IEEE International Conference on Image Processing (ICIP)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1101">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1101/Gao et al. - 2014 - Detecting emotional stress from facial expressions.pdf"/>
+        <dc:title>Gao et al. - 2014 - Detecting emotional stress from facial expressions.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-989-758-509-8">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-989-758-509-8</dc:identifier>
+                <dc:title>Proceedings of the 23rd International Conference on Enterprise Information Systems</dc:title>
+                <dc:identifier>DOI 10.5220/0010474202560263</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                        <vcard:locality>Online Streaming, --- Select a Country ---</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>SCITEPRESS - Science and Technology Publications</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Almeida</foaf:surname>
+                        <foaf:givenName>José</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rodrigues</foaf:surname>
+                        <foaf:givenName>Fátima</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1102"/>
+        <dc:title>Facial Expression Recognition System for Stress Detection with Deep Learning:</dc:title>
+        <dcterms:abstract>Stress Detection, Emotion, Facial Expression Classification, Convolutional Neural Networks.</dcterms:abstract>
+        <dc:date>2021</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Facial Expression Recognition System for Stress Detection with Deep Learning</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.scitepress.org/DigitalLibrary/Link.aspx?doi=10.5220/0010474202560263</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-04 10:56:37</dcterms:dateSubmitted>
+        <bib:pages>256-263</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>23rd International Conference on Enterprise Information Systems</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1102">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1102/Almeida et Rodrigues - 2021 - Facial Expression Recognition System for Stress De.pdf"/>
+        <dc:title>Almeida et Rodrigues - 2021 - Facial Expression Recognition System for Stress De.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:BookSection rdf:about="urn:isbn:978-3-540-22116-6%20978-3-540-24688-6">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <prism:volume>3038</prism:volume>
+                <dc:identifier>ISBN 978-3-540-22116-6 978-3-540-24688-6</dc:identifier>
+                <dc:title>Computational Science - ICCS 2004</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Berlin, Heidelberg</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Springer Berlin Heidelberg</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <z:seriesEditors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kanade</foaf:surname>
+                        <foaf:givenName>Takeo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kittler</foaf:surname>
+                        <foaf:givenName>Josef</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kleinberg</foaf:surname>
+                        <foaf:givenName>Jon M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mattern</foaf:surname>
+                        <foaf:givenName>Friedemann</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mitchell</foaf:surname>
+                        <foaf:givenName>John C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Naor</foaf:surname>
+                        <foaf:givenName>Moni</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nierstrasz</foaf:surname>
+                        <foaf:givenName>Oscar</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pandu Rangan</foaf:surname>
+                        <foaf:givenName>C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Steffen</foaf:surname>
+                        <foaf:givenName>Bernhard</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sudan</foaf:surname>
+                        <foaf:givenName>Madhu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Terzopoulos</foaf:surname>
+                        <foaf:givenName>Demetri</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tygar</foaf:surname>
+                        <foaf:givenName>Dough</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vardi</foaf:surname>
+                        <foaf:givenName>Moshe Y.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Weikum</foaf:surname>
+                        <foaf:givenName>Gerhard</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:seriesEditors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bubak</foaf:surname>
+                        <foaf:givenName>Marian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>van Albada</foaf:surname>
+                        <foaf:givenName>Geert Dick</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sloot</foaf:surname>
+                        <foaf:givenName>Peter M. A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dongarra</foaf:surname>
+                        <foaf:givenName>Jack</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Metaxas</foaf:surname>
+                        <foaf:givenName>Dimitris</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Venkataraman</foaf:surname>
+                        <foaf:givenName>Sundara</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vogler</foaf:surname>
+                        <foaf:givenName>Christian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1103"/>
+        <dc:title>Image-Based Stress Recognition Using a Model-Based Dynamic Face Tracking System</dc:title>
+        <dcterms:abstract>Stress recognition from facial image sequences is a subject that has not received much attention although it is an important problem for a host of applications such as security and human-computer interaction. This class of problems and the related software are instances of Dynamic Data Driven Application Systems (DDDAS). This paper presents a method to detect stress from dynamic facial image sequences. The image sequences consist of people subjected to various psychological tests that induce high and low stress situations. We use a model-based tracking system to obtain the deformations of different parts of the face (eyebrows, lips, mouth) in a parameterized form. We train a Hidden Markov Model system using these parameters for stressed and unstressed situations and use this trained system to do recognition of high and low stress situations for an unlabelled video sequence. Hidden Markov Models (HMMs) are an effective tool to model the temporal dependence of the facial movements. The main contribution of this paper is a novel method of stress detection from image sequences of a person’s face.</dcterms:abstract>
+        <dc:date>2004</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://link.springer.com/10.1007/978-3-540-24688-6_105</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-04 10:56:39</dcterms:dateSubmitted>
+        <dc:description>Series Title: Lecture Notes in Computer Science
+DOI: 10.1007/978-3-540-24688-6_105</dc:description>
+        <bib:pages>813-821</bib:pages>
+    </bib:BookSection>
+    <z:Attachment rdf:about="#item_1103">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1103/Metaxas et al. - 2004 - Image-Based Stress Recognition Using a Model-Based.pdf"/>
+        <dc:title>Metaxas et al. - 2004 - Image-Based Stress Recognition Using a Model-Based.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="urn:isbn:978-1-4577-1799-4">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-4577-1799-4</dc:identifier>
+                <dc:title>2011 IEEE International Conference on Bioinformatics and Biomedicine</dc:title>
+                <dc:identifier>DOI 10.1109/BIBM.2011.80</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Atlanta, GA, USA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>IEEE</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mokhayeri</foaf:surname>
+                        <foaf:givenName>F.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Akbarzadeh-T</foaf:surname>
+                        <foaf:givenName>M-R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1104"/>
+        <dc:title>Mental Stress Detection Based on Soft Computing Techniques</dc:title>
+        <dcterms:abstract>In this study, a novel approach is proposed for mental stress recognition through automatic analysis of eye video sequences. The proposed system consists of five stages: video capturing, fuzzy image processing, signal processing, feature extraction and, classification. The pupil parameters including Pupil Diameter (PD) and Pupil Dilation Acceleration (PDA) are measured using soft computing techniques wherein the eye region is detected using the genetic algorithm (GA), and a fuzzy filter is designed for noise reduction. Edge detection is performed based on fuzzy reasoning and linking is done using Hough transform. Then, signal processing technique is applied to the pupil parameters to extract their most relevant features. Extracted features are imported into the learning system to classify the affective states between “stress” and “relaxed”. The Fuzzy SVM (FSVM) is applied to this classification process. In order to induce the stress in subjects, a Stroop color-word test is designed. Also, the results obtained from the pupil parameters are compared with two other physiological signals including Electrocardiogram (ECG) and Photoplethysmogram (PPG). The experimental results indicate the pupil parameters have great potential for stress recognition compared to the other two physiological signals and, proposed stress recognition system is promising.</dcterms:abstract>
+        <dc:date>11/2011</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://ieeexplore.ieee.org/document/6120481/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-04 10:56:41</dcterms:dateSubmitted>
+        <bib:pages>430-433</bib:pages>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2011 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_1104">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1104/Mokhayeri et Akbarzadeh-T - 2011 - Mental Stress Detection Based on Soft Computing Te.pdf"/>
+        <dc:title>Mokhayeri et Akbarzadeh-T - 2011 - Mental Stress Detection Based on Soft Computing Te.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S1746809416300805">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:17468094"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Giannakakis</foaf:surname>
+                        <foaf:givenName>G.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pediaditis</foaf:surname>
+                        <foaf:givenName>M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Manousos</foaf:surname>
+                        <foaf:givenName>D.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kazantzaki</foaf:surname>
+                        <foaf:givenName>E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chiarugi</foaf:surname>
+                        <foaf:givenName>F.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Simos</foaf:surname>
+                        <foaf:givenName>P.G.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Marias</foaf:surname>
+                        <foaf:givenName>K.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tsiknakis</foaf:surname>
+                        <foaf:givenName>M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1105"/>
+        <dc:title>Stress and anxiety detection using facial cues from videos</dc:title>
+        <dcterms:abstract>This study develops a framework for the detection and analysis of stress/anxiety emotional states through video-recorded facial cues. A thorough experimental protocol was established to induce systematic variability in affective states (neutral, relaxed and stressed/anxious) through a variety of external and internal stressors. The analysis was focused mainly on non-voluntary and semi-voluntary facial cues in order to estimate the emotion representation more objectively. Features under investigation included eye-related events, mouth activity, head motion parameters and heart rate estimated through camerabased photoplethysmography. A feature selection procedure was employed to select the most robust features followed by classiﬁcation schemes discriminating between stress/anxiety and neutral states with reference to a relaxed state in each experimental phase. In addition, a ranking transformation was proposed utilizing self reports in order to investigate the correlation of facial parameters with a participant perceived amount of stress/anxiety. The results indicated that, speciﬁc facial cues, derived from eye activity, mouth activity, head movements and camera based heart activity achieve good accuracy and are suitable as discriminative indicators of stress and anxiety.</dcterms:abstract>
+        <dc:date>01/2017</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S1746809416300805</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-04 10:56:43</dcterms:dateSubmitted>
+        <bib:pages>89-101</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:17468094">
+        <prism:volume>31</prism:volume>
+        <dc:title>Biomedical Signal Processing and Control</dc:title>
+        <dc:identifier>DOI 10.1016/j.bspc.2016.06.020</dc:identifier>
+        <dcterms:alternative>Biomedical Signal Processing and Control</dcterms:alternative>
+        <dc:identifier>ISSN 17468094</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1105">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1105/Giannakakis et al. - 2017 - Stress and anxiety detection using facial cues fro.pdf"/>
+        <dc:title>Giannakakis et al. - 2017 - Stress and anxiety detection using facial cues fro.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+</rdf:RDF>
