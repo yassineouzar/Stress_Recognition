@@ -10,6 +10,11 @@ from tensorflow.keras.applications.vgg16 import VGG16
 from tensorflow.keras.models import Model
 from pickle import dump
 
+# load model
+model = VGG16()
+# remove the output layer
+model = Model(inputs=model.inputs, outputs=model.layers[-2].output)
+
 def Features_extraction(dataset_dir, path_pkl):
     list_dir = os.listdir(dataset_dir)
     for i in range(int(len(list_dir))):
@@ -30,12 +35,7 @@ def Features_extraction(dataset_dir, path_pkl):
             # reshape data for the model
             image = image.reshape((1, image.shape[0], image.shape[1], image.shape[2]))
             # prepare the image for the VGG model
-            image = preprocess_input(image)
-            # load model
-            model = VGG16()
-
-            # remove the output layer
-            model = Model(inputs=model.inputs, outputs=model.layers[-2].output)
+            image = preprocess_input(image)          
             # get extracted features
             features = model.predict(image)
             # save to file
