@@ -7,7 +7,7 @@ def Frames_extraction(path_video, path_save_images):
     videos = [filename for filename in list_dir if filename.endswith("avi")]
     for i in range(int(len(videos))):
         vid_dir = path_video + '/' +  videos[i]
-        path_to_save = path_save_images + '/' +  os.path.splitext(vid_dir)[0][-9:]
+        path_to_save = path_save_images + '/' +  os.path.splitext(vid_dir)[0][64:]
 
         if not os.path.exists(path_to_save):
             os.makedirs(path_to_save)
