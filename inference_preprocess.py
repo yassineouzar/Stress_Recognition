@@ -151,7 +151,11 @@ def preprocess_raw_video(videoFilePath, dim=160):
     Xsub = Xsub[:totalFrames-1, :, :, :]
     #########################################################################
     # Plot an example of data after preprocess
-    dXsub = np.concatenate((dXsub, Xsub), axis = 3);
+
+    if len(dXsub)==len(Xsub):
+        dXsub = np.concatenate((dXsub, Xsub), axis = 3);
+    else:
+        dXsub = np.concatenate((dXsub[:-1, :, :, :], Xsub), axis=3);
 
     # img = dXsub.reshape(-1, dim, dim, 3)
     #
