@@ -21,8 +21,8 @@ def Compute_HR(dataset_dir):
     for i in range(int(len(list_dir))):
         list_dir1 = os.listdir(dataset_dir + '/' + list_dir[i])
         ippg_files = [filename for filename in list_dir1 if 'bvp' in filename]
-        mean = []
-        std = []
+        sampling_rate = 64
+
         for j in range(int(len(ippg_files))):
             ippg_path = dataset_dir + '/' + list_dir[i] + '/' + ippg_files[j]
 
@@ -39,10 +39,25 @@ def Compute_HR(dataset_dir):
             plt.plot(sig_liss, label="Sig_liss")
             # plt.show()
 
-            sampling_rate = 64
             time = np.arange(0, ((len(sig_liss) / sampling_rate) - 1 // sampling_rate), 1 / sampling_rate)
 
+            #frequency domain
+            pxx, frequency = plt.psd(sig_liss, NFFT=len(sig_liss), Fs=64,
+                                                   window=np.hamming(len(sig_liss)))
 
+            LL_PR = 40  # lower limit pulse rate
+            UL_PR = 240
+
+            FMask = (frequency >= (LL_PR / 60)) & (frequency <= (UL_PR / 60))
+
+            FRange = frequency[FMask]
+            PRange = pxx[FMask]
+            MaxInd = np.argmax(PRange)
+            PR_F = FRange[MaxInd]
+            PR = PR_F * 60
+            #print(PR)
+            
+            
             #detection des pics et des vallies
             indexes_peaks, _ = signal.find_peaks(-sig_liss, distance=10, height=0.5)
             indexes_valleys, _ = signal.find_peaks(sig_liss, distance=10, height=0.5)
@@ -79,7 +94,7 @@ def Compute_HR(dataset_dir):
             plt.show()
 
 
-dataset_dir = '/media/bousefsa1/My Passport/BD PPG/2 bases publiques/ubfc_phys'
+dataset_dir = ''
 
 print("start")
 Compute_HR(dataset_dir)
